@@ -1,0 +1,144 @@
+.blogimg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.381), rgba(0, 0, 0, 0.381)), url(../images/allpage.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+}
+
+.blogherotext{
+    color: white;
+    text-align: center;  
+}
+
+.blogherotext h2{
+    position: relative;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+    display: inline-block;
+    font-weight: 500;  
+    margin-bottom: 0.75rem;  
+    margin-top: 0.75rem;
+}
+
+.blogherotext h4{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+
+/* blogsdetail */
+
+.leftcolumn-blogdetail{
+  width: 70%; 
+  margin-top: 50px;
+}
+
+.row-blog{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogdetail-card{
+  width: 90%; 
+}
+
+.blogdetail-card h2{
+  position: relative;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  line-height: 1.3;
+  display: inline-block;
+  color: #344161;
+}
+
+.blogdetail-card p{
+  color: #7f92b0;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 15px 0;
+}
+
+.blogdetail-card h3{
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #344161;
+}
+
+#digitalpost{
+  margin-left: 50px;
+}
+
+
+/* responsive */
+@media only screen and (max-width: 770px){
+    .row-blog{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .leftcolumn-blogdetail{
+      width: 100%;
+    }
+
+    .blogdetail-card{
+     margin: auto;
+    }
+
+    /* .postslider{
+       width: 100%;
+    } */
+
+   .popularposts{
+      width: 50vw;
+    }
+
+    .blogdetail-card img{
+      width: 100%;
+    }
+
+    .postdetails {
+      padding: 10px 0; 
+  }
+
+  .postslider {
+      width: 100% !important;
+      padding: 0 20px;
+      margin: 0;
+  }
+
+  #digitalpost{
+    width: 50vw !important;
+  }
+
+  #blogslider{
+    width: 100% !important;
+    padding: 0 20px !important;
+    margin: 0;
+  }
+
+
+}
+
+
+
+
+  
+  
+
+  
+

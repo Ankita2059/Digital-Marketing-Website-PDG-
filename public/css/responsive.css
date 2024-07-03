@@ -1,0 +1,447 @@
+@media screen and (max-width:1024px) {
+    #aboutmainimg {
+        width: 25%;
+    }
+
+    .aboutcontent {
+        width: 725px;
+    }
+
+    /* .info-item {
+        width: 325px;
+    } */
+
+    .success {
+        width: 230px;
+    }
+
+   
+
+}
+
+@media screen and (max-width: 1130px) {
+    .success {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+
+    .searchbar,
+    .subbtn {
+        display: none;
+    }
+
+    .toggle {
+        display: flex;
+    }
+
+    .navlist {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
+        border-radius: 10px;
+        height: 400px;
+        display: none;
+    }
+
+    .navlist ul {
+        margin-top: 30px;
+        width: 250px;
+        flex-direction: column;
+    }
+
+    .body .navlist {
+        background-color: #1c2845;
+    }
+
+    body::after {
+        display: none;
+    }
+
+    .aboutus::after {
+        display: none;
+    }
+
+    .bioimg::before {
+        display: none;
+    }
+
+    .biosec {
+        flex-direction: column;
+    }
+
+    .bio {
+        padding: 0 30px;
+    }
+
+    .bioimg {
+        width: 70%;
+    }
+
+    .bio p {
+        width: 100%;
+    }
+
+    .emailsub {
+        width: 100%;
+    }
+
+    .hottopicssec {
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        align-items: center;
+        /* height: 450px; */
+
+    }
+
+    .success {
+        width: 200px;
+        margin: 20px;
+    }
+
+    .hotcards {
+        width: 100%;
+    }
+
+    .bigtitle {
+        padding: 0 20px;
+    }
+
+    .rightshadowimg::after {
+        display: none;
+    }
+
+    .editorcards {
+        padding: 20px;
+    }
+
+    .edcard:nth-child(1),
+    .edcard:nth-child(2),
+    .edcard:nth-child(3),
+    .edcard:nth-child(4),
+    .edcard:nth-child(5) {
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .leftshadowimg::after {
+        display: none;
+    }
+
+    .tegsec {
+        padding: 10px 20px;
+    }
+
+    .tegsec a {
+        width: 40%;
+    }
+
+    .recentpostsec {
+        flex-direction: column;
+    }
+
+    .posts {
+        padding: 20px;
+    }
+
+    .post {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .post a,
+    .post a img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .postdetails {
+        padding: 10px 0;
+    }
+
+    .postslider {
+        width: 100%;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .footer {
+        margin: 10px 20px;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footersec {
+        flex-direction: column;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 769px) {
+    .aboutus {
+        /* flex-direction: column; */
+        padding: 20px;
+    }
+
+    .services, .hottopicssec, #why-choose-us{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #aboutmainimg {
+        display: none;
+    }
+
+    .aboutcontent {
+        width: 100%;
+    }
+
+    .success {
+        width: 240px;
+    }
+
+    .hottopicssec {
+        justify-content: space-evenly;
+
+    }
+
+    .info-item {
+        width: 45%;
+    }
+
+
+
+    .service-c {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .service-c button {
+        margin-top: 25px;
+    }
+
+    .box-service {
+        width: 300px;
+        height: 510px;
+    }
+
+    .box-service img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .footer {
+        padding: 10px 50px;
+        bottom: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 426px) {
+    p {
+        font-size: 15px;
+    }
+
+    .aboutcontent h2 {
+        font-size: 28px;
+    }
+
+    .info-item h5 {
+        font-size: 18px;
+    }
+
+    .servicescontent h2 {
+        font-size: 28px;
+    }
+
+    .servicescontent p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .box-service p {
+        font-size: 15px;
+    }
+
+    #aboutmainimg {
+        display: none;
+    }
+
+    .aboutcontent {
+        width: 100%;
+    }
+
+    .info-up,
+    .info-down {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .info-item {
+        width: 80%;
+    }
+
+    .why-choose-col {
+        width: 100%;
+    }
+
+    .why-choose-col h2 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .stat-info-par {
+        float: none;
+        width: 100%;
+    }
+
+    #why-choose-us button {
+        margin-bottom: 0;
+    }
+
+    .count-col {
+        float: none;
+        width: 100%;
+    }
+
+    .why-choose-col {
+        float: none;
+    }
+
+    .faqcontent h2 {
+        font-size: 28px;
+    }
+
+    .faq-question {
+        width: 100%;
+    }
+
+    .panel {
+        padding: 0 18px;
+        /* font-size: 14px; */
+    }
+
+    .panel p {
+        font-size: 14px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .testimonials h2 {
+        font-size: 28px;
+    }
+
+    .dot {
+        margin-bottom: 40px;
+    }
+
+    .bigtitle h2 {
+        font-size: 28px;
+    }
+
+    .bigtitle {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    #uparrow {
+        height: 40px;
+        width: 40px;
+        right: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 430px) {
+    .social {
+        flex-direction: column;
+    }
+
+    .createdby {
+        text-align: center;
+    }
+
+    .logofooter p {
+        width: 100%;
+    }
+
+    .bio h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 381px) {
+
+    .footer {
+        padding: 10px 20px;
+    }
+
+    .logofooter {
+        margin-left: 0;
+    }
+
+    .catefbx {
+        margin-right: 0px;
+    }
+
+    .flex {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /* .container1 {
+        gap: 130px;
+    } */
+
+    .box-service {
+        height: 560px; 
+    }
+}
+
+/* @media screen and (max-width: 358px) {
+    .box-service {
+        width: 245px;
+        height: 510px;
+    }
+} */
+
+@media screen and (max-width:325px) {
+    #uparrow {
+        right: 45px;
+    }
+
+    .imgBx img{
+       height: 250px;
+       width:300px;
+    }
+}
+
+
+/* Digital marketing */
+
+@media screen and (max-width: 768px) {
+    .digital-contentimages {
+        width: 100%;
+    }
+
+    .digitalmarketimages {
+        display: none;
+    }
+
+    .digitalcontent {
+        width: 100% !important;
+    }
+}
