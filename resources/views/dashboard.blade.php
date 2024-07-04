@@ -337,16 +337,16 @@
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>Rohan Pandey <br><span></span></h3>
+                            <h3>Rohan Pandey <br><span>CEO</span></h3>
                         </div>
-                        <ul class="sci">
+                        {{-- <ul class="sci">
                             <li style="--i: 2">
                                 <a href="#"><i class="fa-brands fa-github"></i></a>
                             </li>
                             <li style="--i: 3">
                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
 
                 </div>
@@ -419,19 +419,19 @@
 
                 <div class="card">
                     <div class="imgBx">
-                        {{-- <img src="/images/team1.png" alt=""> --}}
+                        <img src="/images/team5.png" alt="">
                     </div>
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>Bijesh Thapa <br><span>Digital Marketing & SEO</span></h3>
+                            <h3>Bijesh Thapa <br><span>Graphic Designer & SEO</span></h3>
                         </div>
                         <ul class="sci">
                             <li style="--i: 2">
-                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://github.com/Bijesh7"><i class="fa-brands fa-github"></i></a>
                             </li>
                             <li style="--i: 3">
-                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/bijesh-thapa-406970317/"><i class="fa-brands fa-linkedin-in"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -445,16 +445,16 @@
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>Nikhil Rajput <br><span>Digital Marketing & SEO</span></h3>
+                            <h3>Nikhil Rajput <br><span>Digital Marketing </span></h3>
                         </div>
-                        <ul class="sci">
+                        {{-- <ul class="sci">
                             <li style="--i: 2">
                                 <a href="#"><i class="fa-brands fa-github"></i></a>
                             </li>
                             <li style="--i: 3">
                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
 
                 </div>
@@ -468,14 +468,14 @@
                         <div class="contentBx">
                             <h3>Sumit<br><span>Front-End Web Designer</span></h3>
                         </div>
-                        <ul class="sci">
+                        {{-- <ul class="sci">
                             <li style="--i: 2">
                                 <a href="#"><i class="fa-brands fa-github"></i></a>
                             </li>
                             <li style="--i: 3">
                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
 
                 </div>
