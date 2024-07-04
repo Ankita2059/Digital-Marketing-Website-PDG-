@@ -314,7 +314,7 @@
             <div class="mySlides fade">
 
                 <div class="customer-img">
-                    <img src="/images/avatar_1.png" alt="customersImg">
+                    <img src="/images/avatar1.png" alt="customersImg">
                 </div>
                 <div class="text">"The positive experience I've had with your company has restored my
                     faith in great customer service." </div>
@@ -323,7 +323,7 @@
             <div class="mySlides fade">
 
                 <div class="customer-img">
-                    <img src="/images/avatar2.jpg" alt="customersImg">
+                    <img src="/images/avatar2.png" alt="customersImg">
                 </div>
                 <div class="text"> "I love doing business with you because I can trust that you always
                     deliver on your promises."</div>
@@ -332,7 +332,7 @@
             <div class="mySlides fade">
 
                 <div class="customer-img">
-                    <img src="/images/avatar3.webp" alt="customersImg">
+                    <img src="/images/avatar3.png" alt="customersImg">
                 </div>
                 <div class="text"> "Your product/service has made a significant impact on my business,
                     and I can't thank you enough for that."</div>

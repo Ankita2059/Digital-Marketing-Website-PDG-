@@ -261,54 +261,6 @@
                         <a href="{{route('seoservices')}}">Read More<i class="fa-solid fa-arrow-right"></i></a>
                     </p>
                 </div>
-
-                <div class="box-service" >
-                    <img src="/images/pay-per-post.png" alt="" />
-                    <h3>PAY PER CLICK</h3>
-                    <p>
-                        PPC services allow you to connect with potential clients via
-                        sponsored search advertising. Prashant Digital Growth, Tagore
-                        Garden's best PPC agency, ensures that your target audience
-                        receives the correct message at the right time. We increase
-                        traffic to your website and convert visitors into leads while
-                        remaining within your PPC budget.
-                    </p>
-
-                    <p class="servicesreadmore">
-                        <a href="{{route('payservices')}}">Read More<i class="fa-solid fa-arrow-right"></i></a>
-                    </p>
-                </div>
-
-                <div class="box-service" >
-                    <img src="/images/api.png" alt="" />
-                    <h3>API</h3>
-                    <p>
-                        Unlock the potential of seamless integration and connectivity with
-                        Prashant Digital Growth's robust API solutions. Our APIs are
-                        designed to empower your systems, applications, and platforms with
-                        efficient data exchange, enabling a harmonious digital ecosystem.
-                    </p>
-
-                    <p class="servicesreadmore">
-                        <a href="{{route('apiservices')}}">Read More<i class="fa-solid fa-arrow-right"></i></a>
-                    </p>
-                </div>
-
-                <div class="box-service" >
-                    <img src="/images/dashboard.png" alt="" />
-                    <h3>DATA ANALYTICS</h3>
-                    <p>
-                        Prashant Digital Growth brings a transformative approach to data
-                        analytics, unlocking valuable insights that drive informed
-                        decision-making. Our advanced analytics solutions empower your
-                        business to navigate the vast landscape of data, extracting
-                        meaningful patterns and trends to fuel strategic growth.
-                    </p>
-
-                    <p class="servicesreadmore">
-                        <a href="{{route('dataservices')}}">Read More<i class="fa-solid fa-arrow-right"></i></a>
-                    </p>
-                </div>
             </div>
         </section>
         {{-- why choose us --}}
@@ -385,12 +337,9 @@
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>James Henry <br><span>Web Analyst</span></h3>
+                            <h3>Rohan Pandey <br><span></span></h3>
                         </div>
                         <ul class="sci">
-                            <li style="--i: 1">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
                             <li style="--i: 2">
                                 <a href="#"><i class="fa-brands fa-github"></i></a>
                             </li>
@@ -405,19 +354,16 @@
                 <div class="card">
 
                     <div class="imbBx">
-                        <img src="/images/team2.jpeg" alt="">
+                        <img src="/images/team2.png" alt="">
                     </div>
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>John Doe <br><span>UI/UX Designer</span></h3>
+                            <h3>Niraj Bhandai<br><span>Senior Full Stack Developer</span></h3>
                         </div>
                         <ul class="sci">
-                            <li style="--i: 1">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
                             <li style="--i: 2">
-                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://github.com/its-me-niraj"><i class="fa-brands fa-github"></i></a>
                             </li>
                             <li style="--i: 3">
                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -430,17 +376,57 @@
                 <div class="card">
 
                     <div class="imbBx">
-                        <img src="/images/team3.jpg" alt="">
+                        <img src="/images/team3.png" alt="">
                     </div>
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>Mykel Smith <br><span>Front-End Web Developer</span></h3>
+                            <h3>Ankita K.C.<br><span>Front-End Web Developer</span></h3>
                         </div>
                         <ul class="sci">
-                            <li style="--i: 1">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <li style="--i: 2">
+                                <a href="https://github.com/Ankita2059"><i class="fa-brands fa-github"></i></a>
                             </li>
+                            <li style="--i: 3">
+                                <a href="https://www.linkedin.com/in/ankita-khatri-chhetri-35b628288/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="imbBx">
+                        <img src="/images/team4.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Shrijan Neupane <br><span>Back-End Web Developer</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i: 2">
+                                <a href="https://github.com/aryan20021"><i class="fa-brands fa-github"></i></a>
+                            </li>
+                            <li style="--i: 3">
+                                <a href="https://www.linkedin.com/in/shrijan-neupane-597906214/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="imgBx">
+                        {{-- <img src="/images/team1.png" alt=""> --}}
+                    </div>
+
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Bijesh Thapa <br><span>Digital Marketing & SEO</span></h3>
+                        </div>
+                        <ul class="sci">
                             <li style="--i: 2">
                                 <a href="#"><i class="fa-brands fa-github"></i></a>
                             </li>
@@ -453,19 +439,15 @@
                 </div>
 
                 <div class="card">
-
-                    <div class="imbBx">
-                        <img src="/images/team4.jpg" alt="">
+                    <div class="imgBx">
+                        {{-- <img src="/images/team1.png" alt=""> --}}
                     </div>
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>Alex Morgan <br><span>Back-End Web Developer</span></h3>
+                            <h3>Nikhil Rajput <br><span>Digital Marketing & SEO</span></h3>
                         </div>
                         <ul class="sci">
-                            <li style="--i: 1">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
                             <li style="--i: 2">
                                 <a href="#"><i class="fa-brands fa-github"></i></a>
                             </li>
@@ -476,6 +458,48 @@
                     </div>
 
                 </div>
+
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="/images/team7.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Sumit<br><span>Front-End Web Designer</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i: 2">
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                            </li>
+                            <li style="--i: 3">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                {{-- <div class="card">
+                    <div class="imgBx">
+                        <img src="/images/team1.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3> <br><span>Web Analyst</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i: 2">
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                            </li>
+                            <li style="--i: 3">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div> --}}
             </div>
 
             </div>
@@ -595,7 +619,7 @@
                 <div class="mySlides fade">
 
                     <div class="customer-img">
-                        <img src="/images/avatar_1.png" alt="customersImg">
+                        <img src="/images/avatar1.png" alt="customersImg">
                     </div>
                     <div class="text">"The positive experience I've had with your company has restored my
                         faith in great customer service." </div>
@@ -604,7 +628,7 @@
                 <div class="mySlides fade">
 
                     <div class="customer-img">
-                        <img src="/images/avatar2.jpg" alt="customersImg">
+                        <img src="/images/avatar2.png" alt="customersImg">
                     </div>
                     <div class="text"> "I love doing business with you because I can trust that you always
                         deliver on your promises."</div>
@@ -613,7 +637,7 @@
                 <div class="mySlides fade">
 
                     <div class="customer-img">
-                        <img src="/images/avatar3.webp" alt="customersImg">
+                        <img src="/images/avatar3.png" alt="customersImg">
                     </div>
                     <div class="text"> "Your product/service has made a significant impact on my business,
                         and I can't thank you enough for that."</div>

@@ -149,7 +149,7 @@ header nav {
 
 .searchbar i {
     font-size: 20px;
-    color: #344161;
+    color: #b9e0f2;
     cursor: pointer;
 }
 
@@ -484,7 +484,8 @@ header nav {
     border: 1px solid transparent;
     background-color: #e9eef5;
     padding: 10px 10px 10px 20px;
-    margin: 40px 0;
+    margin: 40px 0;  
+    
 }
 
 .bio form {
@@ -498,6 +499,7 @@ header nav {
     outline: none;
     font-size: 14px;
     background: transparent;
+    z-index: 2;
 }
 
 .bio form button {
@@ -694,7 +696,6 @@ header nav {
   border: none;
   outline: none;
   background:none;
-  color: #344161;
   font-size: 16px;
 }
 
@@ -705,11 +706,11 @@ header nav {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 999;
   border-radius: 10px;
-  z-index: 1;
+  background-color:#344161;
 }
 
 .dropdown-content a {
@@ -719,6 +720,7 @@ header nav {
   text-decoration: none;
   display: block;
   text-align: center;
+  
 }
 
 .dropdown-content a:hover {
@@ -990,7 +992,6 @@ header nav {
 .box-service:hover {
     cursor: pointer;
     transform: scale(1.075);
-    background-color: #d7f2ff;
 }
 .box-service h3 {
     font-size: 24px;
@@ -1197,8 +1198,8 @@ header nav {
 .team::after {
     height: 800px;
     background: url("../svg/shadow-blue.svg") no-repeat 100% 0;
-    left: -148px;
-    top: 800px;
+    left: -160px;
+    top: 700px;
 }
 
 .team .card_Container {
@@ -1248,7 +1249,7 @@ header nav {
 
 .content .contentBx h3 {
     text-transform: uppercase;
-    color: #fff;
+    color: #105e81;
     letter-spacing: 2px;
     font-weight: 500;
     font-size: 18px;
@@ -1396,10 +1397,11 @@ header nav {
     padding: 20px 0px;
 }
 
+
 .slideshow-container img {
     height: 100px;
-    width: 100px;
-    border-radius: 50%;
+    width: 200px;
+    border-radius: 10px;
     border: 2px solid #1cc2e7;
     box-shadow: 1px 1px 4px #91e9fc, -1px -1px 4px #91e9fc;
     padding: 2px 2px;
@@ -1529,7 +1531,7 @@ header nav {
 .edcard {
     margin: 20px 0;
     border: 1px solid #e9eef5;
-    background-color: #e8edf5;
+    /* background-color: #e8edf5; */
 }
 
 .edcard:nth-child(1) {
@@ -1553,8 +1555,6 @@ header nav {
 .edcard:nth-child(3),
 .edcard:nth-child(4),
 .edcard:nth-child(5) {
-    border: 1px solid #e9eef5;
-    background-color: #e8edf5;
     overflow: hidden;
     border-radius: 15px;
     padding: 30px;
@@ -1699,7 +1699,7 @@ header nav {
     height: 800px;
     background: url("../svg/shadow-blue.svg") no-repeat 100% 0;
     left: 0;
-    top: 0;
+    top: -70px;
 }
 
 .tegsec {

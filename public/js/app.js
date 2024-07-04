@@ -1,14 +1,14 @@
-const toggleCheckbox = document.querySelector('.toggle-checkbox');
+// const toggleCheckbox = document.querySelector('.toggle-checkbox');
 const searchtoggle = document.querySelector('.searchclick');
 const searchicon = document.querySelector('.fa-magnifying-glass')
 
-toggleCheckbox.addEventListener('change', function () {
-  if (this.checked) {
-    document.body.classList.add('body');
-  } else {
-    document.body.classList.remove('body');
-  }
-});
+// toggleCheckbox.addEventListener('change', function () {
+//   if (this.checked) {
+//     document.body.classList.add('body');
+//   } else {
+//     document.body.classList.remove('body');
+//   }
+// });
 
 searchicon.addEventListener('click', function () {
   if (searchtoggle.style.display === 'none') {

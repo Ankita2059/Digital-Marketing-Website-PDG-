@@ -154,9 +154,9 @@
                     </div>
                 </a>
             </div>
-            <div class="showmorepost flex">
+            {{-- <div class="showmorepost flex">
                 <a href="/">Show More Posts<i class="fa-solid fa-arrow-right"></i></a>
-            </div>
+            </div> --}}
         </section>
 
 

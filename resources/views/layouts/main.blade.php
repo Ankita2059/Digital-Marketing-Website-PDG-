@@ -66,9 +66,6 @@
                                 <a href="{{ route('socialservices') }}">SOCIAL MEDIA MARKETING</a>
                                 <a href="{{ route('graphicservices') }}">GRAPHIC DESIGNING</a>
                                 <a href="{{ route('seoservices') }}">SEO & CONTENTWRITING</a>
-                                <a href="{{ route('payservices') }}">PAY PER CLICK</a>
-                                <a href="{{ route('apiservices') }}">API</a>
-                                <a href="{{ route('dataservices') }}">DATA ANALYTICS</a>
                             </div>
 
                         </div>
@@ -94,17 +91,16 @@
                         <div class="tagssec">
                             <h3>Popular tags:</h3>
                             <div class="tegs flex">
-                                <a href="/">#API<span>,</span></a>
                                 <a href="/">#SEO<span>,</span></a>
                                 <a href="/">#Graphic Designing </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="toggle-switch">
+                {{-- <div class="toggle-switch">
                     <input type="checkbox" class="l toggle-checkbox" id="dark-mode-toggle" />
                     <label class="toggle-label" for="dark-mode-toggle"></label>
-                </div>
+                </div> --}}
                 <button class="subbtn"><a href="{{ route('contacts') }}">Contact Us</a></button>
                 <input type="checkbox" id="checkbox" />
                 <label for="checkbox" class="toggle">
@@ -191,8 +187,7 @@
                     <i class="fa-solid fa-arrow-right"></i>info@prashantdigitalgrowth.com
                 </p>
                 <p>
-                    <i class="fa-solid fa-arrow-right"></i>kawasoti-2, panchakanya chowk
-                    in nawalpur district
+                    <i class="fa-solid fa-arrow-right"></i>Auto Villa Line Horizon,Butwal
                 </p>
                 <p><i class="fa-solid fa-arrow-right"></i>+977 982-5433209</p>
 
@@ -212,12 +207,12 @@
             </div>
         </section>
         <div class="themeauthor container flex">
-            <div class="createdby">
+            {{-- <div class="createdby">
                 <h4>
                     &copy; 2023 Created by
-                    <a href="https://www.codingwebstudio.com/" target="_blank" title="codingwebstudio">AK.com</a>
+                    <a href="#" target="_blank" title="">AK.com</a>
                 </h4>
-            </div>
+            </div> --}}
             <div class="social flex">
                 <div class="socialicon">
                     <i class="fa-brands fa-twitter"></i>

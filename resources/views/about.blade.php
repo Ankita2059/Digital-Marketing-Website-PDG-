@@ -160,12 +160,9 @@
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>James Henry <br><span>Web Analyst</span></h3>
+                            <h3>Rohan Pandey <br><span></span></h3>
                         </div>
                         <ul class="sci">
-                            <li style="--i: 1">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
                             <li style="--i: 2">
                                 <a href="#"><i class="fa-brands fa-github"></i></a>
                             </li>
@@ -180,19 +177,16 @@
                 <div class="card">
 
                     <div class="imbBx">
-                        <img src="/images/team2.jpeg" alt="">
+                        <img src="/images/team2.png" alt="">
                     </div>
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>John Doe <br><span>UI/UX Designer</span></h3>
+                            <h3>Niraj Bhandai<br><span>Senior Full Stack Developer</span></h3>
                         </div>
                         <ul class="sci">
-                            <li style="--i: 1">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
                             <li style="--i: 2">
-                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://github.com/its-me-niraj"><i class="fa-brands fa-github"></i></a>
                             </li>
                             <li style="--i: 3">
                                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -205,17 +199,57 @@
                 <div class="card">
 
                     <div class="imbBx">
-                        <img src="/images/team3.jpg" alt="">
+                        <img src="/images/team3.png" alt="">
                     </div>
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>Mykel Smith <br><span>Front-End Web Developer</span></h3>
+                            <h3>Ankita K.C.<br><span>Front-End Web Developer</span></h3>
                         </div>
                         <ul class="sci">
-                            <li style="--i: 1">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <li style="--i: 2">
+                                <a href="https://github.com/Ankita2059"><i class="fa-brands fa-github"></i></a>
                             </li>
+                            <li style="--i: 3">
+                                <a href="https://www.linkedin.com/in/ankita-khatri-chhetri-35b628288/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <div class="imbBx">
+                        <img src="/images/team4.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Shrijan Neupane <br><span>Back-End Web Developer</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i: 2">
+                                <a href="https://github.com/aryan20021"><i class="fa-brands fa-github"></i></a>
+                            </li>
+                            <li style="--i: 3">
+                                <a href="https://www.linkedin.com/in/shrijan-neupane-597906214/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="imgBx">
+                        {{-- <img src="/images/team1.png" alt=""> --}}
+                    </div>
+
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Bijesh Thapa <br><span>Digital Marketing & SEO</span></h3>
+                        </div>
+                        <ul class="sci">
                             <li style="--i: 2">
                                 <a href="#"><i class="fa-brands fa-github"></i></a>
                             </li>
@@ -228,19 +262,15 @@
                 </div>
 
                 <div class="card">
-
-                    <div class="imbBx">
-                        <img src="/images/team4.jpg" alt="">
+                    <div class="imgBx">
+                        {{-- <img src="/images/team1.png" alt=""> --}}
                     </div>
 
                     <div class="content">
                         <div class="contentBx">
-                            <h3>Alex Morgan <br><span>Back-End Web Developer</span></h3>
+                            <h3>Nikhil Rajput <br><span>Digital Marketing & SEO</span></h3>
                         </div>
                         <ul class="sci">
-                            <li style="--i: 1">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
                             <li style="--i: 2">
                                 <a href="#"><i class="fa-brands fa-github"></i></a>
                             </li>
@@ -251,6 +281,48 @@
                     </div>
 
                 </div>
+
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="/images/team7.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3>Sumit<br><span>Front-End Web Designer</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i: 2">
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                            </li>
+                            <li style="--i: 3">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                {{-- <div class="card">
+                    <div class="imgBx">
+                        <img src="/images/team1.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <div class="contentBx">
+                            <h3> <br><span>Web Analyst</span></h3>
+                        </div>
+                        <ul class="sci">
+                            <li style="--i: 2">
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                            </li>
+                            <li style="--i: 3">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div> --}}
             </div>
 
             </div>

@@ -64,6 +64,6 @@
     {{-- map --}}
     <div class="maplocation">
        <h2>Find Us On Google Map</h2>
-       <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d113092.44400578486!2d83.97916610606039!3d27.6511747286651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skawasoti-2%20panchakanya%20chowk%20in%20nawalpur%20district%20map!5e0!3m2!1sen!2snp!4v1719655153472!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.852993191818!2d83.45672558072593!3d27.69093811480467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x230f4567b50f2f3%3A0x4f9620c0fbc988ad!2sPDG%20-%20Prashant%20Digital%20Growth!5e0!3m2!1sen!2snp!4v1720064118120!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 @endsection
